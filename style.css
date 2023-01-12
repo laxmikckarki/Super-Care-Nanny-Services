@@ -6,6 +6,7 @@ header {
     background-color: rgb(161, 115, 207);
     display: flex;
     justify-content: space-between;
+    font-size: 1.5rem;
 }
 
 
@@ -44,7 +45,13 @@ nav {
     padding: 10px;
     font-size: 1.5rem;
 }
-
+.checkbox {
+    width:40%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: space-between;
+}
 
 input,
 select,
