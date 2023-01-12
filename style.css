@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(161, 115, 207);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*logo style*/
+.logo {
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+}
+
+/* Navigation style */
+nav {
+    margin: 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-links {
+    color: #1f1d1d;
+}
+
+.nav-list :hover {
+    color: #c05326;
+}
+
+.orderForm {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    background: url('./img/kelly-sikkema-Z4GKcFAGck4-unsplash.jpg');
+    background-size: cover;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+input,
+select,
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(168, 168, 221);
+    height: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input:focus {
+    background: red;
+    border: 10px solid green;
+
+}
+
+footer {
+    background-color: rgb(240, 235, 245);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px;
+    gap: 20px;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-style: italic;
+}
+
+.images_socialMedia {
+    width: 60px;
+    height: 50px;
+}
+
+.contact,
+.follow {
+    margin: 10px;
+}
