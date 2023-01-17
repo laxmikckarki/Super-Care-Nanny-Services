@@ -38,13 +38,21 @@ nav {
 .orderForm {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
+    height: 100%;
     margin: auto;
     background: url('./img/kelly-sikkema-Z4GKcFAGck4-unsplash.jpg');
-    background-size: cover;
     padding: 10px;
     font-size: 1.5rem;
+    background-position: left;
+    
+    
 }
+
+container img{
+    
+}
+
 .checkbox {
     width: 10%;
     display: flex;
@@ -52,17 +60,23 @@ nav {
 }
 
 input,
-select,
-button {
+select {
     margin-top: 10px;
     margin-bottom: 10px;
     background: rgb(168, 168, 221);
-    height: 25px;
+    height: 35px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-
+button{
+    font-size: medium;
+    height: 45px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(168, 168, 221);
+}
 .input:focus {
     background: red;
     border: 10px solid green;
